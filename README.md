@@ -1,2 +1,1 @@
-# ecs_cluster
-Amazon ECS cluster
+# Amaxon ECS Cluster
