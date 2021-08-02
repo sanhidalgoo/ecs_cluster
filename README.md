@@ -17,7 +17,7 @@ This example requires that you have AWS account and Terraform CLI installed.
 4. `terraform plan`
 5. `terraform apply -target aws_ecr_repository.pyxis-app`
 6. Make a manual push to ECR of your docker image (In this case [pyxis-app](pyxis-app)). See the commands in the AWS console.
-After that, put the URI of the image given by Amazon in the image parameter of the file [container-definition.json](src/container-definition/container-def.json)
+After that, put the URI of the image given by Amazon in the image parameter of the file [container-definition.json](src/container-definitions/container-def.json)
 7. `terraform apply`
 
 Note: In [variables.tf](src/variables.tf) file set your key pair name and cluster name.
