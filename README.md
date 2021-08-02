@@ -19,4 +19,4 @@ This example requires that you have AWS account and Terraform CLI installed.
 6. Make a manual push to ECR of your docker image (In this case [pyxis-app](pyxis-app)). See the commands in the AWS console.
 7. `terraform apply`
 
-
+Note: In [variables.tf](src/variables.tf) file set your key pair name and cluster name.
