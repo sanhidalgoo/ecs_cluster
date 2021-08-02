@@ -1,6 +1,6 @@
 # Amazon ECS Cluster
 
-This is the example of creating a simple infrastructure using Terraform and AWS cloud provider. It consists of:
+This is the example of creating a simple infrastructure using **Terraform** and AWS cloud provider. It consists of:
 - Virtual Private Cloud (VPC) with 2 public subnets in 2 availability zones
 - Elastic Container Service (ECS)
 - Application Load Balancer (ALB)
